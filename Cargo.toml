@@ -16,6 +16,7 @@ edition = "2018"
 default = ["reqwest"]
 blocking = ["reqwest/blocking"]
 rustls-tls = ["reqwest/rustls-tls"]
+request = []
 
 [workspace]
 members = [
